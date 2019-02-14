@@ -1,0 +1,17 @@
+language: swift
+osx_image: xcode10.1
+xcode_project: Ellipses.xcodeproj
+xcode_scheme: EllipsesTests
+xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone XR
+
+# Podfile for dependencies
+podfile: Podfile
+
+# before_install:
+#   - sudo apt-get update
+# addons:
+#   apt:
+#     update: true
+
+# install:
+#   - pod install
